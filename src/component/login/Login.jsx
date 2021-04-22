@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Input, Form, Card, Row, Col } from 'antd'
-import LoginService from '../service/author_service/LoginService';
+import LoginService from '../../service/author_service/LoginService';
 
 export default class Login extends Component {
     constructor(props) {
